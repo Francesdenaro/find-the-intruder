@@ -1,0 +1,85 @@
+.cell {
+  background: white;
+  outline: white solid thin;
+  float: left;
+  border-radius: 20%;
+}
+
+h1 {
+  text-align: center;
+  color:white;
+  font-size: 350%;
+  font-style: 'arial';
+}
+html, body {
+  background: #290208;
+  width: 100%;
+  height: 100%;
+}
+
+#app {
+  width: 32%;
+  height: 609.58px;
+  margin:2% auto;
+  background: white;
+  padding: 3%;
+  border-radius: 0%;
+}
+
+#restart:hover {
+  background: rgb(124, 14, 14);
+  transition: all 0.5s;
+}
+
+#restart {
+  color: white;
+  display:block;
+  position: relative;
+  margin: -3.75% auto;
+  border: 2px solid white;
+  border-radius: 0%;
+  width: 16%;
+  height: 7%;
+  font-weight: bolder;
+  background-color: #290208;
+  transition: all 1s;
+}
+
+@media screen and (max-width: 1720px) {
+  #app {
+    width:40%;
+    height:500px;
+    padding-bottom: 4%;
+  }
+
+  #restart {
+    width: 20%;
+    margin-top: -4.55%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #app {
+    width:48%;
+    height:400px;
+    padding-bottom: 4%;
+  }
+
+  #restart {
+    width: 20%;
+    margin-top: -4.55%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  #app {
+    width:90%;
+    height:300px;
+    padding-bottom: 10%;
+  }
+
+  #restart {
+    width: 70%;
+    margin-top: -10%;
+  }
+}
