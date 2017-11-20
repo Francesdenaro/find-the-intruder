@@ -8,13 +8,13 @@
 h1 {
   text-align: center;
   color:white;
-  font-size: 350%;
-  font-style: 'arial';
+  font-size: 380%;
 }
 html, body {
-  background: #290208;
+  background: #3F729B;
   width: 100%;
   height: 100%;
+  font-family: 'Lato', sans-serif;  
 }
 
 #app {
@@ -23,11 +23,12 @@ html, body {
   margin:2% auto;
   background: white;
   padding: 3%;
-  border-radius: 0%;
+  border-radius: 1%;
 }
 
 #restart:hover {
-  background: rgb(124, 14, 14);
+  background: #3F729B;
+  color: white;
   transition: all 0.5s;
 }
 
@@ -37,11 +38,11 @@ html, body {
   position: relative;
   margin: -3.75% auto;
   border: 2px solid white;
-  border-radius: 0%;
+  border-radius: 1%;
   width: 16%;
   height: 7%;
   font-weight: bolder;
-  background-color: #290208;
+  background-color: #3F729B;
   transition: all 1s;
 }
 
@@ -73,13 +74,13 @@ html, body {
 
 @media screen and (max-width: 414px) {
   #app {
-    width:90%;
+    width:80%;
     height:300px;
     padding-bottom: 10%;
   }
 
   #restart {
-    width: 70%;
-    margin-top: -10%;
+    width: 40%;
+    margin-top: -8%;
   }
 }

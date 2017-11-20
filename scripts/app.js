@@ -65,6 +65,4 @@ function restart() {
   return [r,g,b,0.80];
 }
 
-init(4, 50);
-
-
+init(4,50);
